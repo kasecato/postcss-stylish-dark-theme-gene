@@ -59,6 +59,8 @@ module.exports = postcss.plugin('postcss-stylish-dark-theme-gene', () => {
 
         root.walkRules(removeEmptyRule);
 
+        root.walkAtRules(removeEmptyRule);
+
         return root;
     };
 
