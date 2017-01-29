@@ -1,0 +1,43 @@
+{
+  "name": "postcss-stylish-dark-theme-gene",
+  "version": "0.0.1",
+  "description": "Generate Stylish dark theme using PostCSS.",
+  "main": "",
+  "dependencies": {
+    "postcss": "^5.2.11",
+    "color": "^1.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-headerfooter": "^1.0.3",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-eslint": "^3.0.1"
+  },
+  "scripts": {
+    "stylish": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k--kato/postcss-stylish-dark-theme-gene.git"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "stylish",
+    "dark",
+    "color"
+  ],
+  "author": "Keisuke Kato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k--kato/postcss-stylish-dark-theme-gene/issues"
+  },
+  "homepage": "https://github.com/k--kato/postcss-stylish-dark-theme-gene",
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE.md",
+    "index.js"
+  ]
+}
