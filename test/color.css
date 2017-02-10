@@ -1,0 +1,371 @@
+a {
+    color: red;
+}
+
+a {
+    color: #123;
+}
+
+a {
+    color: #123123;
+}
+
+a {
+    color: rgb(1, 2, 3);
+}
+
+a {
+    color: rgba(1, 2, 3, 0.5);
+}
+
+a {
+    color: hsl(1, 2%, 3%);
+}
+
+a {
+    color: hsla(1, 2%, 3%, 0.5);
+}
+
+a {
+    background-color: red;
+}
+
+a {
+    border-color: red;
+}
+
+a {
+    border-top-color: red;
+}
+
+a {
+    border-right-color: red;
+}
+
+a {
+    border-bottom-color: red;
+}
+
+a {
+    border-left-color: red;
+}
+
+a {
+    background-image: linear-gradient(to bottom, red, blue);
+}
+
++
+a {
+    outline-color: red;
+}
+
+a {
+    text-shadow: 1px 1px 2px black;
+}
+
+a {
+    box-shadow: 10px 5px 5px black;
+}
+
+a {
+    background: red url(../foo.jpg) no-repeat center center;
+}
+
++
+a {
+    background: red url(../foo.jpg), blue url(../bar.jpg);
+}
+
++
+a {
+    outline: 1px solid white;
+}
+
+a {
+    border: 1px solid white;
+}
+
+a {
+    border-top: 1px solid white;
+}
+
+a {
+    border-right: 1px solid white;
+}
+
+a {
+    border-bottom: 1px solid white;
+}
+
+a {
+    border-left: 1px solid white;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: grey;
+}
+
+h1 {
+    color: black;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: grey;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: gray;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: lightgrey;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: lightgray;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: dimgrey;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: dimgray;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: darkgrey;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: darkgray;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: #111;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: #121212;
+    border-color: #111111;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: rgb(1, 1, 1);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: rgba(1, 1, 1, 0.5);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: hsl(0, 0, 1%);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: hsla(0, 0, 1%, 0.5);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: grey;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: #fFf;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: #fFfFfF;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: rgba(255, 255, 255);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: hsl(0, 0, 100%);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: hsla(0, 0, 100%, 0.5);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: black;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: #000;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: #000000;
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: rgba(0, 0, 0);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: hsl(0, 0, 0%);
+}
+
+a {
+    color: red;
+}
+
+p {
+    color: hsla(0, 0, 0%, 0.5);
+}
+
+a {
+    color: #123123;
+}
+
+a {
+    color: #123123;
+}
+
+a {
+    color: #123123;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: #123123;
+}
