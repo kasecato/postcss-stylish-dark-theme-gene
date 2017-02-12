@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/k--kato/postcss-stylish-dark-theme-gene.svg?branch=master)](https://travis-ci.org/k--kato/postcss-stylish-dark-theme-gene)
+[![Coverage Status](https://coveralls.io/repos/github/k--kato/postcss-stylish-dark-theme-gene/badge.svg?branch=master)](https://coveralls.io/github/k--kato/postcss-stylish-dark-theme-gene?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
+
 # Dark Theme Generator for Stylish
 
 Extract only color from CSS files and invert it to generate Stylish dark theme.
