@@ -1,6 +1,6 @@
 {
   "name": "postcss-stylish-dark-theme-gene",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate Stylish dark theme using PostCSS.",
   "main": "index.js",
   "dependencies": {

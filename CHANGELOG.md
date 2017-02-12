@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.0.3 (February 13, 2017)
+
+* enhancement - Publish npm. See https://www.npmjs.com/package/postcss-stylish-dark-theme-gene
+* enhancement - Add usage.
+
 ## 0.0.2 (February 12, 2017)
 
 * enhancement - Add test code.
