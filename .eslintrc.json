@@ -3,12 +3,14 @@
     "browser": true,
     "es6": true
   },
-  "ecmaFeatures": {
-    "modules": true
-  },
   "extends": "eslint:recommended",
   "parserOptions": {
-    "sourceType": "module"
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true,
+      "arrowFunctions": true
+    }
   },
   "rules": {
     "indent": [

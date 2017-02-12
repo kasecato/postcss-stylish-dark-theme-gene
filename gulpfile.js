@@ -5,6 +5,8 @@ const sourcemaps = require('gulp-sourcemaps');
 const concat = require('gulp-concat');
 const headerfooter = require('gulp-headerfooter');
 const eslint = require('gulp-eslint');
+const mocha = require('gulp-mocha');
+const istanbul = require('gulp-istanbul');
 
 /*-----------------------------------------------------------------------------
  * lint
@@ -61,6 +63,23 @@ gulp.task('watch', function () {
         'build'
     ]);
 });
+
+/*-----------------------------------------------------------------------------
+ * test
+ *---------------------------------------------------------------------------*/
+gulp.task('pre-test', function () {
+    return gulp.src(['index.js'])
+        .pipe(istanbul())
+        .pipe(istanbul.hookRequire());
+});
+
+gulp.task('test', ['pre-test'], function () {
+    return gulp.src(['test/*.js'])
+        .pipe(mocha({reporter: 'nyan'}))
+        .pipe(istanbul.writeReports())
+        .pipe(istanbul.enforceThresholds({ thresholds: { global: 70 } }));
+});
+
 
 /*-----------------------------------------------------------------------------
  * default

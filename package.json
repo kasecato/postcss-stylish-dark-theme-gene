@@ -1,8 +1,8 @@
 {
   "name": "postcss-stylish-dark-theme-gene",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate Stylish dark theme using PostCSS.",
-  "main": "",
+  "main": "index.js",
   "dependencies": {
     "postcss": "^5.2.11",
     "color": "^1.0.3"
@@ -12,11 +12,15 @@
     "gulp-postcss": "^6.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-headerfooter": "^1.0.3",
-    "gulp-sourcemaps": "^2.4.0",
-    "gulp-eslint": "^3.0.1"
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-eslint": "^3.0.1",
+    "chai": "^3.5.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-istanbul": "^1.1.1"
   },
   "scripts": {
-    "stylish": "gulp"
+    "stylish": "gulp",
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
