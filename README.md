@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/postcss-stylish-dark-theme-gene.svg)](https://badge.fury.io/js/postcss-stylish-dark-theme-gene)
 [![Build Status](https://travis-ci.org/k--kato/postcss-stylish-dark-theme-gene.svg?branch=master)](https://travis-ci.org/k--kato/postcss-stylish-dark-theme-gene)
 [![Coverage Status](https://coveralls.io/repos/github/k--kato/postcss-stylish-dark-theme-gene/badge.svg?branch=master)](https://coveralls.io/github/k--kato/postcss-stylish-dark-theme-gene?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
@@ -9,19 +10,22 @@ Extract only color from CSS files and invert it to generate Stylish dark theme.
 
 ## Usage
 
-1) First, install the package dependencies:
+![postcss-stylish-dark-theme-gene](./img/postcss-stylish-dark-theme-gene.gif)
+
+
+1: First, install the package dependencies:
 ```
 npm install
 ```
 
-2) Save css files to `stylish/domain/`.
+2: Save css files to `stylish/domain/`.
 
-3) Now you can compile the code:
+3: Now you can compile the code:
 ```
 npm run stylish
 ```
 
-4) Stylish dark theme is generated in `stylish/dist/dark-theme.css`.
+4: Stylish dark theme is generated in `stylish/dist/dark-theme.css`.
 
 
 ## Stylish
